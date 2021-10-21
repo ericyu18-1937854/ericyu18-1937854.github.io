@@ -1,0 +1,37 @@
+#fifty img{
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+}
+ p{
+  font-family:verdana;
+ }
+
+ #p2{
+  font-family:'Courier New';
+ }
+
+ .centered {
+  position: absolute;
+  top: 221px;
+  left: 28px;
+}
+
+#center img {
+  display:block;
+  width:100px;
+  height: 100px;
+}
+
+#dot{
+  border:black dotted 8px;
+  width: 300px;
+}
+
+#round {
+  border: solid 8px black;
+  border-radius: 25px;
+  width: 300px;
+  float: right;
+
+}
