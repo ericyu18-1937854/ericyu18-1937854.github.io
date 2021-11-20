@@ -1,0 +1,66 @@
+/*
+  Name: Eric Yu
+  Date:  October 2, 2020
+  Section: CSE 154 AE
+  This is the styles.css page for my roll pokemon
+  web page. It gives the web page a red wave background
+  and some unique fonts and colors.
+*/
+
+body {
+  background-image: url("images/wave.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Mukta', sans-serif;
+}
+
+#title {
+  width: 30%;
+}
+
+.card {
+  width: 20%;
+  height: 350px;
+  background: whitesmoke;
+  border-radius: 20px;
+  padding-top: 0px;
+}
+
+.card img {
+  width: 74%;
+}
+
+.card img, .card, #title, button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card span {
+  color: darkgray;
+}
+
+.card h3 {
+  color: rgb(99, 99, 99);
+}
+
+.shiny {
+  color: gold;
+}
+
+#roll {
+  margin-top: 30px;
+}
+
+footer, .card {
+  text-align: center;
+}
+
+.err {
+  color: red;
+}
+
+#egg {
+  padding-top: 20px;
+}

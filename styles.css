@@ -1,0 +1,41 @@
+/*
+  Name: Eric Yu
+  Date:  October 2, 2020
+  Section: CSE 154 AE
+  This is the styles.css page for my about me webpage.
+  It is used by all pages to give the site a consistent
+  look and feel.
+*/
+
+/*
+  Note: This body rule set is to get you started
+*/
+body {
+  background-color: rgb(126, 126, 126);
+  font-family: "Helvetica", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.picture {
+  width: 60%;
+}
+
+form {
+  margin-top: 30px;
+}
+
+blockquote p {
+  font-weight: 1000;
+  font-style: italic;
+  color: rgb(126, 22, 22);
+}
+
+blockquote footer {
+  font-family: 'Caveat', cursive;
+}
+
+h2, h3 {
+  text-decoration: underline;
+}
